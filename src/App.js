@@ -34,7 +34,6 @@ function App() {
         <Fade><img src={Bubble2} className="bubble-2"/></Fade>
         <Fade><img src={Bubble3} className="bubble-3"/></Fade>
         <Fade><img src={Bubble4} className="bubble-4"/></Fade>
-        {/* <Fade><img src={Bubble5} className="bubble-5"/></Fade> */}
         <Fade><img src={Grid1} className="grid-1"/></Fade>
         <Fade><img src={Grid2} className="grid-2"/></Fade>
         <Fade><img src={Plus1} className="plus-1"/></Fade>
