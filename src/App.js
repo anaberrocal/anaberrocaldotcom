@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Bubble1 from "./assests/Bubble-1.png";
-// import Bubble5 from "./assests/Bubble-5.png";
 import Bubble2 from "./assests/Bubble-2.png";
 import Bubble3 from "./assests/Bubble-3.png";
 import Bubble4 from "./assests/Bubble-4.png";
