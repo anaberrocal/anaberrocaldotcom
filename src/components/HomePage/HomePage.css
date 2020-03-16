@@ -1,22 +1,38 @@
+/*Landing page container*/
 .HomePage-Animations-Container {
     width: 100%;
 }
 
+/*Container for title and the adjacent 2 lines*/
 .titleContainer {
-    width: 100%;
-    height: 5px;
+    width: 100%; 
 }
+/*Rules for title and lines*/   
 .title {
     margin: auto;
-    padding: auto;
+    padding: 0;
   }
-
-  .top-left{
-      background-color: transparent;
+.line-1 {
+    position: relative;
+    z-index: 0;
+    padding: 0;
+    margin-left: -10%;
+    margin-right: 100%;
+    margin-top: -100%;
+    margin-bottom: 1000%;
   }
-    
-  .bubble-1 {
-      background-color: 'rgba(0,0,0,0)';
+  .line-2 {
+    position: relative;
+    z-index: 0;
+    padding: 0;
+    margin-left: -10%;
+    margin-right: 100%;
+    margin-top: -100%;
+    margin-bottom: 1000%;
+  }
+  
+/*Bubble top left and grid behind it*/   
+.bubble-1 {
     height: 300px;
     width: 500px;
     position: relative;
@@ -26,66 +42,61 @@
     z-index: 2;
     transition: ease-in-out;
     }
-    .grid-1 {
-        position: relative;
-        z-index: 1;
-        padding: 0;
-        margin-left: -90%;
-        margin-top: 0em;
-        height: 30em;
-        width:60em;
-      }
+.grid-1 {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin-left: -90%;
+    margin-top: 0em;
+    height: 30em;
+    width:60em;
+    }
     
+/*Bubble top right and its 2 plus signs*/
+.bubble-2 {
+    height: 300px;
+    width: 500px;
+    position: relative;
+    padding: 0;
+    margin-top: -90%;
+    margin-left: 75%;
+    z-index: 2
+    }
+.plus-1 {
+    position: relative;
+    z-index: 3;
+    padding: 0;
+    margin-top: -90%;
+    margin-left: 75%;
+    height: 40em;
+    opacity: 25%;
+    }
+
   
-    .bubble-2 {
-      height: 300px;
-      width: 500px;
-      position: relative;
-      padding: 0;
-      margin-top: -90%;
-      margin-left: 75%;
-      z-index: 2
+/*Bubble bottom right corner and its grid*/
+.bubble-3 {
+    height: 450px;
+    width: 800px;
+    position: relative;
+    padding: 0;
+    z-index: 2;
+    margin-top: 40%;
+    margin-left: 60%;
       }
 
-      .plus-1 {
-        position: relative;
-        z-index: 3;
-        padding: 0;
-        margin-top: -90%;
-        margin-left: 75%;
-        height: 40em;
-        opacity: 25%;
-       }
-  
-  .bubble-3 {
-      height: 450px;
-      width: 800px;
-      position: relative;
-      padding: 0;
-      z-index: 2;
-      margin-top: 40%;
-      margin-left: 60%;
+
+/*Bubble bottom left corner and its single plus sign*/
+.bubble-4 {
+    height: 450px;
+    width: 750px;
+    position: relative;
+    padding: 0;
+    margin-bottom: 700px;
+    margin-top: -40%;
+    margin-left: -90%;
+    z-index:2
       }
-  
-  .bubble-4 {
-      height: 450px;
-      width: 750px;
-      position: relative;
-      padding: 0;
-      margin-bottom: 700px;
-      margin-top: -40%;
-      margin-left: -90%;
-      z-index:2
+.plus-3 {
+    height: 400px;
+    position: relative;
       }
-  
-  .line-1 {
-      position: relative;
-      z-index: 0;
-      padding: 0;
-      margin-left: -10%;
-      margin-right: 100%;
-      margin-top: -100%;
-      margin-bottom: 1000%;
-  }
-  
-  
