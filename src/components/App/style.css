@@ -6,6 +6,13 @@
   .App {
     width: 100%;
   }
+
+.title {
+  width: 80%;
+  display: inline-flex;
+  margin: auto;
+  padding: 0;
+}
   
 .bubble-1 {
     background-color: 'rgba(0,0,0,0)';
@@ -15,7 +22,7 @@
   padding: 0;
   margin-left: -90%;
   margin-top: -10%;
-  z-index: 1;
+  z-index: 2;
   /* transition: ease-in-out; */
   }
 
@@ -26,7 +33,7 @@
     padding: 0;
     margin-top: -90%;
     margin-left: 75%;
-    z-index: 1
+    z-index: 2
     }
 
 .bubble-3 {
@@ -34,7 +41,7 @@
     width: 800px;
     position: relative;
     padding: 0;
-    z-index: 0;
+    z-index: 2;
     margin-top: 40%;
     margin-left: 60%;
     }
@@ -47,7 +54,7 @@
     margin-bottom: 700px;
     margin-top: -40%;
     margin-left: -90%;
-    z-index:1
+    z-index:2
     }
 
 .line-1 {
@@ -58,4 +65,15 @@
     margin-right: 100%;
     margin-top: -100%;
     margin-bottom: 1000%;
+}
+
+.grid-1 {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin-left: -90%;
+  margin-top: -300em;
+  height: 30em;
+  width:60em;
+  
 }
