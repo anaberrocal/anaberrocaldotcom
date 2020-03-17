@@ -1,102 +1,154 @@
-/*Landing page container*/
-.HomePage-Animations-Container {
-    width: 100%;
+/* Landing page container*/
+#HomePage-Animations-Container {
+    /* display: flex;
+    position: relative; */
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    
 }
 
 /*Container for title and the adjacent 2 lines*/
-.titleContainer {
-    width: 100%; 
-}
+ .titleContainer {
+    /* display: block;
+    position: absolute; */
+    color: transparent;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 4;
+    grid-row-end: 3;
+    margin: auto;
+} 
 /*Rules for title and lines*/   
-.title {
+ .title {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background: transparent;
+    position: relative;
     margin: auto;
     padding: 0;
+    z-index: 2;
   }
 .line-1 {
-    position: relative;
-    z-index: 0;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    position: absolute;
+    background: transparent;
+    z-index: 1;
     padding: 0;
-    margin-left: -10%;
-    margin-right: 100%;
-    margin-top: -100%;
-    margin-bottom: 1000%;
+    right:-10px;
+    
   }
   .line-2 {
-    position: relative;
-    z-index: 0;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    position: absolute;
+    background: transparent;
+    z-index: 1;
     padding: 0;
-    margin-left: -10%;
-    margin-right: 100%;
-    margin-top: -100%;
-    margin-bottom: 1000%;
-  }
+    left:0;
+    
+  } 
   
-/*Bubble top left and grid behind it*/   
-.bubble-1 {
-    height: 300px;
-    width: 500px;
+/*Container for bubble top left and grid behind*/   
+span .top-left {
+    grid-column-start: 1;
+    color: transparent;
     position: relative;
+    max-width:500px;
+    top: 0;
+    left: 0;
+}
+
+.bubble-1 {
+    
     padding: 0;
-    margin-left: -90%;
-    margin-top: -10%;
-    z-index: 2;
+    background: transparent;
+    z-index: 5;
     transition: ease-in-out;
     }
 .grid-1 {
-    position: relative;
-    z-index: 1;
+    
+    background: transparent;
+    z-index: 5;
     padding: 0;
-    margin-left: -90%;
-    margin-top: 0em;
-    height: 30em;
-    width:60em;
-    }
+    left: 0;
+    top: -10;
+    } 
     
 /*Bubble top right and its 2 plus signs*/
+.top-right {
+    grid-column-start: 3;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
 .bubble-2 {
-    height: 300px;
-    width: 500px;
-    position: relative;
+    position: absolute;
+    background: transparent;
     padding: 0;
-    margin-top: -90%;
-    margin-left: 75%;
-    z-index: 2
+    z-index: 0;
+    top: 0;
+    right: 0;
     }
 .plus-1 {
-    position: relative;
-    z-index: 3;
-    padding: 0;
-    margin-top: -90%;
-    margin-left: 75%;
-    height: 40em;
-    opacity: 25%;
+  right: 0;
+  z-index: 2;
     }
-
+.plus-2 {
+    background: transparent;
+    z-index: 2;
+    padding: 0;
+    
+    } 
   
 /*Bubble bottom right corner and its grid*/
+span .bottom-right {
+    color: transparent;
+    grid-row-start:3; 
+    grid-column-start: 3;
+    position: absolute;
+    max-width:500px;
+    bottom: 0;
+    right: 0;
+}
 .bubble-3 {
-    height: 450px;
-    width: 800px;
-    position: relative;
+    background: transparent;
+    position: absolute;
     padding: 0;
     z-index: 2;
-    margin-top: 40%;
-    margin-left: 60%;
+    bottom: 1;
+    right:0;
       }
-
+.grid-2 {
+    z-index: -1;
+    position: relative;
+    background: transparent;
+    
+    right:0;
+} 
 
 /*Bubble bottom left corner and its single plus sign*/
+ span .bottom-left {
+    grid-row-start:3; 
+    grid-column-start: 1;
+    bottom: 0;
+    left: 0;
+}
 .bubble-4 {
-    height: 450px;
-    width: 750px;
-    position: relative;
+    background: transparent;
+    position: absolute;
     padding: 0;
-    margin-bottom: 700px;
-    margin-top: -40%;
-    margin-left: -90%;
+    bottom: -10;
+    left: 0;
     z-index:2
       }
 .plus-3 {
-    height: 400px;
-    position: relative;
-      }
+    z-index:1;
+    bottom:0;
+    left:0;
+    position: absolute;
+    background: transparent;
+      } 

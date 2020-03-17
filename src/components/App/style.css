@@ -4,10 +4,10 @@
     } 
   
   .App {
-    width: 100%;
+    width: 1000px;
   }
 
-.title {
+/* .title {
   width: 80%;
   display: inline-flex;
   margin: auto;
@@ -23,7 +23,7 @@
   margin-left: -90%;
   margin-top: -10%;
   z-index: 2;
-  /* transition: ease-in-out; */
+   transition: ease-in-out; 
   }
 
 .bubble-2 {
@@ -76,4 +76,4 @@
   height: 30em;
   width:60em;
   
-}
+*/

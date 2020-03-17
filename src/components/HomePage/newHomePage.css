@@ -1,0 +1,64 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+#HomePage-Animations-Container{
+    
+}
+.bubble-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.grid-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.bubble-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bubble-3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+.grid-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.bubble-4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.titleContainer{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.title {
+    
+    margin: auto;
+}
+
+.line-1 {
+    position: absolute;
+    left: 0;
+}
+.line-2 {
+    position: absolute;
+    right: 0;
+}
