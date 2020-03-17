@@ -17,7 +17,7 @@ import { fadeInRight } from 'react-animations';
 
 
 
-const Fade = styled.div`animation: 3s ${keyframes`${fadeInRight}`} `;
+const Fade = styled.div`animation: 3.5s ${keyframes`${fadeInRight}`} `;
 
 
 
@@ -25,32 +25,33 @@ export default function HomePage() {
   return (
     <div id="HomePage-Animations-Container">
         <span className="top-left">  
-            <Fade><img src={Bubble1} className="bubble-1"/></Fade>
-            <Fade><img src={Grid1} className="grid-1"/></Fade>
+            <img src={Bubble1} className="bubble-1"/>
+            <img src={Grid1} className="grid-1"/>
             
         </span>
 
         <span className="top-right"> 
-            <Fade><img src={Bubble2} className="bubble-2"/></Fade>
-            <Fade><img src={Plus1} className="plus-1"/></Fade>
-            <Fade><img src={Plus2} className="plus-2"/></Fade>
+            <img src={Bubble2} className="bubble-2"/>
+           <img src={Plus1} className="plus-1"/>
+           <img src={Plus2} className="plus-2"/>
         </span>
 
         <div className="titleContainer">
             <Fade><img src={Title} className="title"/></Fade>
             <Fade><img src={Line1} className="line-1"/></Fade>
-            <Fade><img src={Line2} className="line-2"/>  </Fade>
+            <Fade><img src={Line2} className="line-2"/></Fade>
         </div>
 
         <span className="bottom-right"> 
-            <Fade><img src={Bubble3} className="bubble-3"/></Fade>
-            <Fade><img src={Grid2} className="grid-2"/></Fade>
+            <img src={Bubble3} className="bubble-3"/>
+            <img src={Grid2} className="grid-2"/>
         </span>
 
         <span className="bottom-left"> 
-        <Fade><img src={Bubble4} className="bubble-4"/></Fade>
-        <Fade><img src={Plus3} className="plus-3"/></Fade>
+        <img src={Bubble4} className="bubble-4"/>
+        <img src={Plus3} className="plus-3"/>
         </span>
+        
     </div>
   );
 }

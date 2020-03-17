@@ -1,22 +1,4 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
-/* .top-left {
-}
-.top-right {
-    
-}
-.bottom-right{
 
-}
-.bottom-left{
-    
-}
-
-#HomePage-Animations-Container{
-    
-} */
 .bubble-1 {
     width: 40%;
     height: auto;
@@ -25,7 +7,32 @@
     overflow: hidden;
     margin-top: -13%;
     left: -10%;
+    z-index: 1;
+    animation: bubble-1-animate;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
+@keyframes bubble-1-animate {
+    0% {width: 40%;
+        height: auto;
+        position: absolute;
+        background: transparent;
+        opacity: 5%;
+        overflow: hidden;
+        margin-top: -13%;
+        left: 50%;
+    }
+    100% {width: 40%;
+        height: auto;
+        position: absolute;
+        background: transparent;
+        opacity: 100%;
+        overflow: hidden;
+        margin-top: -13%;
+        left: -10%;
+        }
+}
+
 .grid-1 {
     width: 35%;
     height: auto;
@@ -36,6 +43,34 @@
     overflow: hidden;
     margin-top: -22%;;
     left: 6%;
+    animation: grid-1-animate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes grid-1-animate {
+    0%{width: 35%;
+        height: auto;
+        position: absolute;
+        opacity: 10%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        overflow: hidden;
+        margin-top: -22%;;
+        left: 50%;
+    }
+    100%{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    opacity: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    margin-top: -22%;;
+    left: 6%;
+    }
 }
 
 
@@ -50,6 +85,37 @@
     overflow: hidden;
     margin-top: -20%;
     right: -10%;
+    animation: bubble-2-animate;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes bubble-2-animate {
+    0%{width: 40%;
+        height: auto;
+        position: absolute;
+        background: transparent;
+        opacity: 5%;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        overflow: hidden;
+        margin-top: -20%;
+        right: -50%;
+
+    }
+    100%{
+        width: 40%;
+        height: auto;
+        position: absolute;
+        background: transparent;
+        opacity: 100%;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        overflow: hidden;
+        margin-top: -20%;
+        right: -10%;
+    }
 }
 
 .plus-1{
@@ -61,6 +127,33 @@
     top: 15%;
     right: 0;
     transform: translate(-50%, -50%);
+    animation: plus-1-animate;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes plus-1-animate {
+    0%{
+    position: absolute;
+    background: transparent;
+    opacity: 0%;
+    z-index: 1;
+    width: 3%;
+    height: auto;
+    top: 15%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    }
+    100%{
+    position: absolute;
+    background: transparent;
+    opacity: 100%;
+    z-index: 1;
+    width: 3%;
+    height: auto;
+    top: 15%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    }
 }
 .plus-2 {
     position: absolute;
@@ -71,6 +164,33 @@
     top: 7%;
     right: 20%;
     transform: translate(-50%, -50%);
+    animation: plus-2-animate;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes plus-2-animate {
+    0%{
+    position: absolute;
+    background: transparent;
+    opacity: 0%;
+    z-index: 1;
+    width: 3%;
+    height: auto;
+    top: 7%;
+    right: -10%;
+    transform: translate(-50%, -50%); 
+    }
+    100%{
+    position: absolute;
+    background: transparent;
+    opacity: 100%;
+    z-index: 1;
+    width: 3%;
+    height: auto;
+    top: 7%;
+    right: 20%;
+    transform: translate(-50%, -50%); 
+    }
 }
 
 .bubble-3 {
@@ -84,6 +204,37 @@
     overflow: hidden;
     margin-bottom: -15%;
     right: -13%;
+    animation: bubble-3-animate;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes bubble-3-animate{
+    0%{width: 40%;
+        height: auto;
+        position: absolute;
+        background: transparent;
+        opacity: 5%;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        overflow: hidden;
+        margin-bottom: -15%;
+        right: -50%;
+
+    }
+    100%{
+        width: 40%;
+    height: auto;
+    position: absolute;
+    background: transparent;
+    opacity: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    overflow: hidden;
+    margin-bottom: -15%;
+    right: -13%;
+    }
 }
 .grid-2 {
     width: 35%;
@@ -93,8 +244,37 @@
     right: 0;
     z-index: -1;
     overflow: hidden;
-    margin-bottom: -28%;
+    margin-bottom: -12%;
     right: 0%;
+    animation: grid-2-animate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes grid-2-animate {
+    0%{width: 35%;
+        height: auto;
+        position: absolute;
+        opacity: 10%;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        overflow: hidden;
+        margin-bottom: -12%;
+        right: -50%;
+
+    }
+    100%{
+        width: 35%;
+    height: auto;
+    position: absolute;
+    opacity: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    margin-bottom: -12%;
+    right: 0%;
+    }
 }
 
 .bubble-4 {
@@ -107,6 +287,33 @@
     overflow: hidden;
     margin-bottom: -15%;
     left: -5%;
+    animation: bubble-4-animate;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes bubble-4-animate {
+    0% {width: 40%;
+        height: auto;
+        position: absolute;
+        background: transparent;
+        bottom: 0;
+        left: 0;
+        opacity: 5%;
+        overflow: hidden;
+        margin-bottom: -15%;
+        left: 50%;}
+    100% {width: 40%;
+        height: auto;
+        position: absolute;
+        background: transparent;
+        bottom: 0;
+        left: 0;
+        opacity: 100%;
+        overflow: hidden;
+        margin-bottom: -15%;
+        left: -5%;
+
+        }
 }
 
 .plus-3 {
@@ -115,11 +322,37 @@
     z-index: 1;
     width: 3%;
     height: auto;
-    bottom: 6%;
-    left: 30.5%;
-    /* transform: translate(-50%, -50%); */
+    bottom: 4%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    animation: plus-3-animate;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
 }
-
+@keyframes plus-3-animate {
+    0%{
+    position: absolute;
+    background: transparent;
+    opacity:0%;
+    z-index: 1;
+    width: 3%;
+    height: auto;
+    bottom: 4%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    }
+    100%{
+    position: absolute;
+    background: transparent;
+    opacity: 100%;
+    z-index: 1;
+    width: 3%;
+    height: auto;
+    bottom: 4%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    }
+}
 .titleContainer{
     position: absolute;
     top: 50%;
@@ -127,7 +360,7 @@
 }
 .title {
     background: transparent;
-    width: 50%;
+    width: 55%;
     height: auto;
     text-align: center;
     margin: 0;
@@ -141,13 +374,13 @@
     background: transparent;
     position: absolute;
     left: 0;
-    width: 15%;
+    width: 10%;
     height: auto;
 }
 .line-2 {
     background: transparent;
     position: absolute;
     right: 0;
-    width: 15%;
+    width: 10%;
     height: auto;
 }
