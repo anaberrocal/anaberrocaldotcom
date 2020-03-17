@@ -2,16 +2,33 @@
     margin: 0;
     padding: 0;
 } */
+/* .top-left {
+}
+.top-right {
+    
+}
+.bottom-right{
+
+}
+.bottom-left{
+    
+}
 
 #HomePage-Animations-Container{
     
-}
+} */
 .bubble-1 {
+    width: 40%;
+    height: auto;
     position: absolute;
-    top: 0;
+    background: transparent;
+    overflow: hidden;
+    top: -10;
     left: 0;
 }
 .grid-1 {
+    width: 45%;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
@@ -20,18 +37,48 @@
 
 
 .bubble-2 {
+    width: 40%;
+    height: auto;
     position: absolute;
+    background: transparent;
     top: 0;
     right: 0;
+    z-index: 0;
+}
+
+.plus-1{
+    position: absolute;
+    background: transparent;
+    z-index: 1;
+    width: 3%;
+    height: auto;
+    top: 25%;
+    right: 1%;
+    transform: translate(-50%, -50%);
+}
+.plus-2 {
+    position: absolute;
+    background: transparent;
+    z-index: 1;
+    width: 3%;
+    height: auto;
+    top: 20%;
+    right: 37%;
+    transform: translate(-50%, -50%);
 }
 
 .bubble-3 {
+    width: 40%;
+    height: auto;
     position: absolute;
+    background: transparent;
     bottom: 0;
     right: 0;
     z-index: 0;
 }
 .grid-2 {
+    width: 45%;
+    height: auto;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -39,26 +86,53 @@
 }
 
 .bubble-4 {
+    width: 40%;
+    height: auto;
     position: absolute;
+    background: transparent;
     bottom: 0;
     left: 0;
 }
 
+.plus-3 {
+    position: absolute;
+    background: transparent;
+    z-index: 1;
+    width: 3%;
+    height: auto;
+    top: 80%;
+    left: 36%;
+    /* transform: translate(-50%, -50%); */
+}
+
 .titleContainer{
-    position: relative;
-    display: block;
+    position: absolute;
+    top: 50%;
     width: 100%;
 }
 .title {
-    
-    margin: auto;
+    background: transparent;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .line-1 {
+    background: transparent;
     position: absolute;
     left: 0;
+    width: 15%;
+    height: auto;
 }
 .line-2 {
+    background: transparent;
     position: absolute;
     right: 0;
+    width: 15%;
+    height: auto;
 }
