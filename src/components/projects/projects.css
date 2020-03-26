@@ -1,4 +1,6 @@
 .projectDiv {
-    height: 50px;
+    margin-top: 150%;
+    height: 50%;
     width: 100%;
+    position: absolute;
 }
