@@ -1,39 +1,44 @@
-/* .body{
-    height:100%; */
-
-.contactContainer {
-    border: 5px solid red;
+ .contactContainer {
+    display: flex;
+    flex-direction: column;
     position: absolute; 
-    /* min-height: 40px;
-    max-height: 40px; */
-    /* margin-bottom: 0px; */
-    bottom: 0;
-    /* width: 100%; */
-    /* margin-bottom: 10%;  */
+    top:200%;
+    bottom: 0%;
+    width: 100%;
 }
-/* .title {
+
+ .title {
+    padding: 3%;
     color: white;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.iconContainer{
+    padding: 2%;
 }
 
 .icon {
+    position: relative;
     color: white;
     margin: 1%;
 }
-
-.pictureContainer {
-    margin-left: 15%;
-    margin-right: 100%;
-    padding: 0;
-    height: 150%;
-    width: auto;
-}
-
-.resume{
+p {
     color: white;
+    font-family: 'Anonymous Pro', monospace;
     font-size: 1.5em;
 }
+.pictureContainer {
+    margin-top:3%;
+} 
 
-.profilePic{
-    height: 130%;
-    width: auto;
-}   */
+.resume{
+    text-decoration: none;
+    margin-bottom: 5%;
+ }  
+
+
+@media only screen and (max-width: 900px) and (min-width: 300px){
+    .pictureContainer {
+        margin-top:10%;
+    }
+  }

@@ -18,12 +18,12 @@ const useStyles = makeStyles(theme => ({
 function Contact() {
   const classes = useStyles();
   return (
-    <div className="contactContainer">
+    <div className={classes.root} className="contactContainer">
       <div className="pictureContainer">
         <img src={profilePicture} alt ="Ana Berrocal" className="profilePic"/>
       </div>
       <h1 className="title">I would love to hear from you!</h1>
-      <div className={classes.root} className="iconContainer">
+      <div className="iconContainer">
         <a className="icon" href="https://www.linkedin.com/in/anaberrocal/" target="_blank"><LinkedInIcon fontSize="large"/></a>
         <a className="icon" href="https://github.com/anaberrocal" target="_blank"><GitHubIcon fontSize="large"/></a>
         <a className="icon" href="https://www.youtube.com/channel/UC5L3tcTpdnGEjKwQO25k0mQ" target="_blank"><YouTubeIcon fontSize="large"/></a>
