@@ -1,4 +1,9 @@
+.App {
+display: flex;
+flex-direction: column;
 
+
+}
 /* * {
   background: #2f4295;
   text-align: center;
