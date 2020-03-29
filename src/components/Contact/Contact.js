@@ -29,7 +29,7 @@ function Contact() {
         <a className="icon" href="https://www.youtube.com/channel/UC5L3tcTpdnGEjKwQO25k0mQ" target="_blank"><YouTubeIcon fontSize="large"/></a>
         <a className="icon" href="" target="_blank"><EmailIcon fontSize="large"/></a>
       </div>
-      <a className="resume" href="" target="_blank"><p>Dowload my resume</p></a>
+      <a className="resume" href="" target="_blank"><p>Download my resume</p></a>
     </div>
   );
 }
