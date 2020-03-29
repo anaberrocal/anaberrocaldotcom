@@ -20,11 +20,11 @@ export default function Projects() {
             <div><a href="https://anaberrocal.github.io/want/" target="_blank">Demo</a></div>
             <div><a href="https://github.com/anaberrocal/want" target="_blank">GitHub</a></div>
         </div>
-        <div>
+        {/* <div>
           <a>
             <img id="project" src={findTheFood} />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
