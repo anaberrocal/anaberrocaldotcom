@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
-import findTheFood from './FindTheFood.png';
-import Want from './Want.png';
+import findTheFood from './FindTheFood.gif';
+import Want from './FindTheFood.gif';
 
 export default function Projects() {
   return (
