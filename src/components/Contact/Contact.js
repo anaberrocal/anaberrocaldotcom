@@ -20,16 +20,45 @@ function Contact() {
   return (
     <div className={classes.root} className="contactContainer">
       <div className="pictureContainer">
-        <img src={profilePicture} alt ="Ana Berrocal" className="profilePic"/>
+        <img src={profilePicture} alt="Ana Berrocal" className="profilePic" />
       </div>
       <h1 className="title">I would love to hear from you!</h1>
-      <div className="iconContainer">
-        <a className="icon" href="https://www.linkedin.com/in/anaberrocal/" target="_blank"><LinkedInIcon fontSize="large"/></a>
-        <a className="icon" href="https://github.com/anaberrocal" target="_blank"><GitHubIcon fontSize="large"/></a>
-        <a className="icon" href="https://www.youtube.com/channel/UC5L3tcTpdnGEjKwQO25k0mQ" target="_blank"><YouTubeIcon fontSize="large"/></a>
-        <a className="icon" href="" target="_blank"><EmailIcon fontSize="large"/></a>
+      <div className="about">
+        Lorem IIpsum veniam est veniam velit ullamco tempor est ut quis ex
+        mollit laboris exercitation. Culpa duis occaecat ut sint cupidatat
+        eiusmod adipisicing reprehenderit do aute consectetur eiusmod excepteur.
+        Commodo do duis ipsum in anim ullamco enim fugiat occaecat velit
+        adipisicing pariatur nostrud. In duis Lorem non ad fugiat.
       </div>
-      <a className="resume" href="" target="_blank"><p>Download my resume</p></a>
+      <div className="iconContainer">
+        <a
+          className="icon"
+          href="https://www.linkedin.com/in/anaberrocal/"
+          target="_blank"
+        >
+          <LinkedInIcon fontSize="large" />
+        </a>
+        <a
+          className="icon"
+          href="https://github.com/anaberrocal"
+          target="_blank"
+        >
+          <GitHubIcon fontSize="large" />
+        </a>
+        <a
+          className="icon"
+          href="https://www.youtube.com/channel/UC5L3tcTpdnGEjKwQO25k0mQ"
+          target="_blank"
+        >
+          <YouTubeIcon fontSize="large" />
+        </a>
+        <a className="icon" href="" target="_blank">
+          <EmailIcon fontSize="large" />
+        </a>
+      </div>
+      <a className="resume" href="" target="_blank">
+        <p>Download my resume</p>
+      </a>
     </div>
   );
 }
