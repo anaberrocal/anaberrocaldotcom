@@ -24,11 +24,7 @@ function Contact() {
       </div>
       <h1 className="title">I would love to hear from you!</h1>
       <div className="about">
-        Lorem IIpsum veniam est veniam velit ullamco tempor est ut quis ex
-        mollit laboris exercitation. Culpa duis occaecat ut sint cupidatat
-        eiusmod adipisicing reprehenderit do aute consectetur eiusmod excepteur.
-        Commodo do duis ipsum in anim ullamco enim fugiat occaecat velit
-        adipisicing pariatur nostrud. In duis Lorem non ad fugiat.
+        I am a JavaScrip developer passionate about React and Material-UI. I do frontend development because I love seeing the things I create, come to life. With a background in visual arts and hospitality, I have a keen eye for implementing design into coding and I am an amazing team player. I would love to join a team where I can use and expand on my existing skills. 
       </div>
       <div className="iconContainer">
         <a
