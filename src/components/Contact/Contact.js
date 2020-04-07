@@ -48,7 +48,7 @@ function Contact() {
         >
           <YouTubeIcon fontSize="large" />
         </a>
-        <a className="icon" href="" target="_blank">
+        <a className="icon" href="mailto:anaberrocaldev@gmail.com" target="_blank">
           <EmailIcon fontSize="large" />
         </a>
       </div>
