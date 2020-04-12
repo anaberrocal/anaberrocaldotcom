@@ -6,7 +6,10 @@ import Want from './FindTheFood.gif';
 export default function Projects() {
   return (
     <div className="projectDiv">
-      <h1 className="projectsTitle">Projects I've worked on</h1>
+      <div className="titleProjectContainer">
+        <h1 className="projectsTitle">Projects I've worked on</h1>
+        </div>
+      
       <div className="projectContainer">
         <div>
             <img id="project" src={findTheFood}/>

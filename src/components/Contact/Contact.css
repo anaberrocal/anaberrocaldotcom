@@ -41,7 +41,8 @@ p {
      color: #ffffff;
      font-family: 'Anonymous Pro', monospace;
      font-size: 1.5em;
-     padding: 5%;
+     line-height: 2em;
+     padding: 3% 15% 3% 15%;
  }
 
 @media only screen and (max-width: 900px) and (min-width: 300px){

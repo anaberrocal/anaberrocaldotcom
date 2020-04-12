@@ -1,12 +1,16 @@
 .projectDiv {
+    text-align: center;
     background: transparent;
     margin-top: 80%;
     height: 50%;
     width: 100%;
-    position: absolute;
-    
+    position: absolute; 
 }
-
+.titleProjectContainer {
+    position: static;
+    width: 100%;
+    text-align: center;
+}
 .projectContainer {
     background: transparent;
     display: flex;
@@ -46,11 +50,11 @@
         width: 65%;
     }
 
-    /* #project {
+    #project {
         margin-top: 15%;
         height: 5%;
         width: 70%;
-    } */
+    }
   } 
 
   a {

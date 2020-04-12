@@ -1,15 +1,15 @@
 import React from "react";
 import "./Contact.css";
-import { makeStyles } from '@material-ui/core/styles';
-import profilePicture from './Portfolio-Favicon.png';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import YouTubeIcon from '@material-ui/icons/YouTube';
-import EmailIcon from '@material-ui/icons/Email';
+import { makeStyles } from "@material-ui/core/styles";
+import profilePicture from "./Portfolio-Favicon.png";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import YouTubeIcon from "@material-ui/icons/YouTube";
+import EmailIcon from "@material-ui/icons/Email";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
-    '& > svg': {
+    "& > svg": {
       margin: theme.spacing(2),
     },
   },
@@ -24,7 +24,13 @@ function Contact() {
       </div>
       <h1 className="title">I would love to hear from you!</h1>
       <div className="about">
-        I am a JavaScrip developer passionate about React and Material-UI. I do frontend development because I love seeing the things I create, come to life. With a background in visual arts and hospitality, I have a keen eye for implementing design into coding and I am an amazing team player. I would love to join a team where I can use and expand on my existing skills. 
+        I am a JavaScript developer passionate about React and Material-UI. I do
+        frontend development because I love seeing the things I create come to
+        life. My background in visual arts has helped me develop a keen eye for
+        implementing designs through code and my background in hospitality has
+        turned me into an amazing team player with outstanding soft skills. I
+        would love to join a team where not only I am able to use my existing
+        skills but also expand them.
       </div>
       <div className="iconContainer">
         <a
@@ -48,7 +54,11 @@ function Contact() {
         >
           <YouTubeIcon fontSize="large" />
         </a>
-        <a className="icon" href="mailto:anaberrocaldev@gmail.com" target="_blank">
+        <a
+          className="icon"
+          href="mailto:anaberrocaldev@gmail.com"
+          target="_blank"
+        >
           <EmailIcon fontSize="large" />
         </a>
       </div>
