@@ -1,71 +1,63 @@
-.projectDiv {
+.projects {
     text-align: center;
     background: transparent;
-    margin-top: 80%;
+    margin-top: 1300px;
     height: 50%;
     width: 100%;
     position: absolute; 
 }
-.titleProjectContainer {
+#projectsTitle {
     position: static;
     width: 100%;
     text-align: center;
+    margin-bottom: 10%;
 }
-.projectContainer {
+.projectsContainer {
     background: transparent;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-.projectsTitle {
+ .myProjects {
     background: transparent;
-    height: 30%;
+    height: 30%; 
     width: auto;
-    margin-left: 39%;
-    position: absolute;
-    margin-top: 0%;
-    padding-top: 0%;
     color: white;
-    font-family: 'Anonymous Pro', monospace;
+    font-size: 37px;
+    font-family: 'Anonymous Pro', monospace; 
 } 
 
-#project {
+.projectName {
+    font-style: italic;
+    padding-bottom: 0px;
+    padding-bottom: 0px;
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: xx-large;
+}
+
+#projectImage {
     background: transparent;
-    margin-top: 15%;
+    margin-top: 2%;
     width: 80%;
 }
 
+.project {
+    height: 50%;
+}
 
-@media only screen and (min-width: 300px) and (max-width: 1000px){
-    .projectContainer {
-        background: transparent;
-        flex-direction: column;
-    }
-
-    .projectDiv {
-        background: transparent;
-        margin-top: 230%;
-    }
-    #project {
-        background: transparent;
-        width: 65%;
-    }
-
-    #project {
-        margin-top: 15%;
-        height: 5%;
-        width: 70%;
-    }
-  } 
-
-  a {
+a {
     text-decoration: none;
     color: white;
     font-family: 'Anonymous Pro', monospace;
     font-size: x-large;
   } 
+  
+.projectLink {
+    margin: 2%;
+}
 
-  .projectName {
-    color: white;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: xx-large;
-  }
+ @media only screen and (min-width: 300px) and (max-width: 1000px){
+    .projects {
+        margin-top: 1100px;
+    }
+  }  

@@ -24,13 +24,13 @@ function Contact() {
       </div>
       <h1 className="title">I would love to hear from you!</h1>
       <div className="about">
-        I am a JavaScript developer passionate about React and Material-UI. I do
-        frontend development because I love seeing the things I create come to
-        life. My background in visual arts has helped me develop a keen eye for
-        implementing designs through code and my background in hospitality has
-        turned me into an amazing team player with outstanding soft skills. I
-        would love to join a team where not only I am able to use my existing
-        skills but also expand them.
+        I am a frontend developer specializing in React and JavaScript. I have
+        experience building web applications and user-interfaces with
+        JavaScript, HTML, CSS, React and Material-UI. I possess excellent soft
+        skills that allow me to be a great addition to any team. I am passionate
+        about how coding and creativity can tie so close together and the
+        amazing things I can create with code. I would love to join a team where
+        I can not only utilize my existing skills but expand on them.
       </div>
       <div className="iconContainer">
         <a
@@ -62,7 +62,7 @@ function Contact() {
           <EmailIcon fontSize="large" />
         </a>
       </div>
-      <a className="resume" href="" target="_blank">
+      <a className="resume" href="https://drive.google.com/file/d/12_B2RlKRAurMyf62yemxXjo8DONWufv1/view?usp=sharing" target="_blank">
         <p>Download my resume</p>
       </a>
     </div>
