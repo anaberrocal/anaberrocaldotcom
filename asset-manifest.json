@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/anaberrocaldotcom/static/css/main.c8e14be4.chunk.css",
+    "main.js": "/anaberrocaldotcom/static/js/main.25509421.chunk.js",
+    "main.js.map": "/anaberrocaldotcom/static/js/main.25509421.chunk.js.map",
+    "runtime-main.js": "/anaberrocaldotcom/static/js/runtime-main.b0234826.js",
+    "runtime-main.js.map": "/anaberrocaldotcom/static/js/runtime-main.b0234826.js.map",
+    "static/js/2.24af1372.chunk.js": "/anaberrocaldotcom/static/js/2.24af1372.chunk.js",
+    "static/js/2.24af1372.chunk.js.map": "/anaberrocaldotcom/static/js/2.24af1372.chunk.js.map",
+    "index.html": "/anaberrocaldotcom/index.html",
+    "precache-manifest.fd6a8dd68aace80c68f8e73498a09815.js": "/anaberrocaldotcom/precache-manifest.fd6a8dd68aace80c68f8e73498a09815.js",
+    "service-worker.js": "/anaberrocaldotcom/service-worker.js",
+    "static/css/main.c8e14be4.chunk.css.map": "/anaberrocaldotcom/static/css/main.c8e14be4.chunk.css.map",
+    "static/media/Bubble-1.png": "/anaberrocaldotcom/static/media/Bubble-1.1580e3bc.png",
+    "static/media/Bubble-2.png": "/anaberrocaldotcom/static/media/Bubble-2.9481dd85.png",
+    "static/media/Bubble-3.png": "/anaberrocaldotcom/static/media/Bubble-3.7f31ff9d.png",
+    "static/media/Bubble-4.png": "/anaberrocaldotcom/static/media/Bubble-4.a72d114b.png",
+    "static/media/Distanceware.gif": "/anaberrocaldotcom/static/media/Distanceware.6d77e005.gif",
+    "static/media/FindTheFood.gif": "/anaberrocaldotcom/static/media/FindTheFood.fc2f5378.gif",
+    "static/media/Grid-1.png": "/anaberrocaldotcom/static/media/Grid-1.e76c4212.png",
+    "static/media/Grid-2.png": "/anaberrocaldotcom/static/media/Grid-2.6fdb8e50.png",
+    "static/media/Portfolio-Favicon.png": "/anaberrocaldotcom/static/media/Portfolio-Favicon.7c8fa71a.png",
+    "static/media/Title-Intro.png": "/anaberrocaldotcom/static/media/Title-Intro.8072e7d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0234826.js",
+    "static/js/2.24af1372.chunk.js",
+    "static/css/main.c8e14be4.chunk.css",
+    "static/js/main.25509421.chunk.js"
+  ]
+}
