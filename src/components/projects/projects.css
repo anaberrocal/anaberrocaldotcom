@@ -10,7 +10,6 @@
     position: static;
     width: 100%;
     text-align: center;
-    margin-bottom: 10%;
 }
 .projectsContainer {
     background: transparent;
@@ -27,8 +26,8 @@
 } 
 
 .projectName {
+    padding-top: 5%;
     font-style: italic;
-    padding-bottom: 0px;
     padding-bottom: 0px;
     color: white;
     font-family: 'Anonymous Pro', monospace;
@@ -56,8 +55,33 @@ a {
     margin: 2%;
 }
 
- @media only screen and (min-width: 300px) and (max-width: 1000px){
+ @media only screen and (min-width: 1023px) and (max-width: 1025px){
     .projects {
-        margin-top: 1100px;
+        margin-top: 1600px;
     }
   }  
+
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+    .projectsContainer {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 319px) and (max-width: 415px) {
+    .projects {
+        margin-top: 800px;
+    }
+    
+}
+  
+/* /* 
+  @media only screen and (min-width: 359px){
+    .projects {
+        margin-top: 730px;
+    }
+  }  
+  @media only screen and (min-width: 413px){
+    .projects {
+        margin-top: 790px;
+    } 
+  }   */
