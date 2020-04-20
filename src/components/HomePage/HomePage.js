@@ -55,7 +55,7 @@ export default function HomePage() {
         <img src={Plus3} className="plus-3" />
       </span>
       <section id="scrollButton" class="scroll">
-        <a href="#section06">
+        <a href=".">
           <span></span>
         </a>
       </section>
