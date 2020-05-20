@@ -1,11 +1,11 @@
-.projects {
+ .projects {
     text-align: center;
     background: transparent;
     margin-top: 1300px;
     height: 50%;
     width: 100%;
     position: absolute; 
-}
+} 
 #projectsTitle {
     position: static;
     width: 100%;
@@ -13,51 +13,61 @@
 }
 .projectsContainer {
     background: transparent;
-    display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
- .myProjects {
+ .workExperience {
     background: transparent;
     height: 30%; 
     width: auto;
     color: white;
-    font-size: 37px;
+    font-size: 4rem;
     font-family: 'Anonymous Pro', monospace; 
 } 
 
 .projectName {
-    padding-top: 5%;
+    /* padding-top: 5%; */
     font-style: italic;
     padding-bottom: 0px;
     color: white;
     font-family: 'Anonymous Pro', monospace;
-    font-size: xx-large;
+    font-size: 3rem;
 }
 
 #projectImage {
     background: transparent;
-    margin-top: 2%;
+    margin-top: -110px;
     width: 80%;
 }
 
-.project {
+/* .project {
     height: 50%;
-}
+} */
 
 a {
     text-decoration: none;
     color: white;
     font-family: 'Anonymous Pro', monospace;
-    font-size: x-large;
+    font-size: 1.7rem;
   } 
   
 .projectLink {
     margin: 2%;
 }
 
+.about {
+    color: #ffffff;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.5em;
+    line-height: 2em;
+    padding: 3% 15% 3% 15%;
+}
+
  @media only screen and (min-width: 1023px) and (max-width: 1025px){
     .projects {
         margin-top: 1600px;
+    }
+    #projectImage {
+        margin-top: 2%;
     }
   }  
 
@@ -65,16 +75,21 @@ a {
     .projectsContainer {
         flex-direction: column;
     }
+    #projectImage {
+        margin-top: 2%;
+    }
 }
 
 @media only screen and (min-width: 319px) and (max-width: 415px) {
     .projects {
         margin-top: 800px;
     }
-    
-}
+    #projectImage {
+        margin-top: 2%;
+    }
+} 
   
-/* /* 
+/* 
   @media only screen and (min-width: 359px){
     .projects {
         margin-top: 730px;
