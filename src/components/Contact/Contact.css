@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     position: absolute; 
-    top:7500px;
+    top:7000px;
     bottom: 0%;
     width: 100%;
 }
@@ -47,7 +47,7 @@ p {
 
  @media only screen and (min-width: 300px) and (max-width: 1024px) {
     .contactContainer {
-        top:6100px;
+        top:5500px;
     }
     .pictureContainer {
         margin-top:10%;
@@ -57,7 +57,7 @@ p {
 
 @media only screen and (min-width: 319px) and (max-width: 425px) {
     .contactContainer {
-        top:6300px;
+        top:6000px;
     }
     .pictureContainer {
         margin-top:20%;
@@ -67,7 +67,7 @@ p {
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     .contactContainer {
-        top:6500px;
+        top:6100px;
     }
     .pictureContainer {
         margin-top:10%;

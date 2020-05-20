@@ -78,7 +78,7 @@ export default function Projects() {
               href="https://github.com/anaberrocal/FindTheFood"
               target="_blank"
             >
-              Click here to check out the GitHub Repo
+             Click here to check out the GitHub Repo
             </a>
           </div>
 
