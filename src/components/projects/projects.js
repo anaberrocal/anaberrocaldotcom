@@ -44,7 +44,7 @@ export default function Projects() {
           <br/>
           <div className="projectLink">
             <a
-              href="https://anaberrocal.github.io/FindTheFood/"
+              href="https://anaberrocal.github.io/ay-tunes/"
               target="_blank"
             >
               Click here for a live demo!
@@ -52,7 +52,7 @@ export default function Projects() {
           </div>
           <div className="projectLink">
             <a
-              href="https://github.com/anaberrocal/FindTheFood"
+              href="https://github.com/anaberrocal/ay-tunes"
               target="_blank"
             >
               Click here to check out the GitHub Repo
@@ -90,7 +90,7 @@ export default function Projects() {
          <br/>
           <div className="projectLink">
             <a
-              href="https://anaberrocal.github.io/FindTheFood/"
+              href="https://anaberrocal.github.io/want/"
               target="_blank"
             >
               Click here for a live demo!
@@ -98,7 +98,7 @@ export default function Projects() {
           </div>
           <div className="projectLink">
             <a
-              href="https://github.com/anaberrocal/FindTheFood"
+              href="https://github.com/anaberrocal/want"
               target="_blank"
             >
              Click here to check out the GitHub Repo
