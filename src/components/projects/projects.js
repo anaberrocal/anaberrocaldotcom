@@ -61,7 +61,7 @@ export default function Projects() {
 
           <img id="projectImage" src={FindTheFood} />
           <h1 className="projectName">Find The Food</h1>
-          <p className="about">"Find The Food" is a Yelp-like clone web application that allows users to search for restaurants businesses by utilizing the Yelp API. </p>
+          <p className="about">"Find The Food" is a Yelp-like clone web application that allows users to search for restaurants and businesses by utilizing the Yelp API. </p>
           <p>Skills and technologies utilized:</p>
           <p> React • JavaScript • HTML5 • CSS3 • Yelp's RESTful API • Responsive Design</p>
           <br/>

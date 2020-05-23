@@ -49,13 +49,6 @@ function Contact() {
         </a>
         <a
           className="icon"
-          href="https://www.youtube.com/channel/UC5L3tcTpdnGEjKwQO25k0mQ"
-          target="_blank"
-        >
-          <YouTubeIcon fontSize="large" />
-        </a>
-        <a
-          className="icon"
           href="mailto:anaberrocaldev@gmail.com"
           target="_blank"
         >
