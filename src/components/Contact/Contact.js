@@ -55,7 +55,7 @@ function Contact() {
           <EmailIcon fontSize="large" />
         </a>
       </div>
-      <a className="resume" href="https://drive.google.com/file/d/1WOHaR1h6VsghxT5aVyVnIP2cDyANFXgr/view?usp=sharing" target="_blank">
+      <a className="resume" href="https://drive.google.com/file/d/1k7rTpvvbrYNYPzZxqZZ5UPq8wdDqQ7GC/view?usp=sharing" target="_blank">
         <p>Download my resume</p>
       </a>
     </div>
